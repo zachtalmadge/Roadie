@@ -1,0 +1,26 @@
+@media only screen and (min-width: 768px) {
+    #buttons {
+        margin-left: 89px !important;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #buttons {
+        margin-left: 300px !important;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    #buttons {
+        margin-left: 509px !important;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #buttons {
+        margin-left: 685px !important;
+    }
+}
+@media only screen and (min-width: 1600px) {
+    #buttons {
+        margin-left: 685px !important;
+    }
+}

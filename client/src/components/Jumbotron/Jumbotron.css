@@ -1,0 +1,7 @@
+.jumbotron-fluid {
+    background-image: url("../../../public/images/performer.jpeg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}

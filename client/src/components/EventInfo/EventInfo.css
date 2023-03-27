@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1200px){
+    #loc {
+        margin-left: 182px !important
+    }
+    #date {
+        margin-right: 182px !important
+    }   
+}
+
+@media only screen and (max-width: 576px){
+    #desktopBtns {
+        display: none !important
+    }
+}

@@ -1,0 +1,288 @@
+{
+	"name" : "Ultra Music Festival",
+	"venue" : "Bayfront Park",
+	"location" : "Miami, FL",
+	"startDate" : "2023-03-22T00:00:00Z",
+	"endDate" : "2023-03-24T00:00:00Z",
+	"headliners" : [
+		"Hardwell",
+		"Martin Garrix",
+		"The Chainsmokers",
+		"Carl Cox",
+		"Tiesto"
+	],
+	"added" : false,
+	"camping": false,
+	"attendance": "120,000",
+	"__v" : 0
+}
+{
+	"name" : "Camp Bisco",
+	"venue" : "Montage Mountain",
+	"location" : "Scranton, PA",
+	"startDate" : "2023-07-20T00:00:00Z",
+	"endDate" : "2023-07-22T00:00:00Z",
+	"headliners" : [
+		"The Disco Biscuits",
+		"Bassnectar",
+		"Tipper",
+		"ODESZA",
+		"Space Jesus"
+	],
+	"added" : false,
+	"camping": true,
+	"attendance": "30,000",
+	"__v" : 0
+}
+{
+	"name" : "Electric Forest",
+	"venue" : "Double JJ Ranch",
+	"location" : "Rothbury, MI",
+	"startDate" : "2023-06-22T00:00:00Z",
+	"endDate" : "2023-06-25T00:00:00Z",
+	"headliners" : [
+		"Bassnectar",
+		"The String Cheese Incident",
+		"GRiZ",
+		"Major Lazer",
+		"STS9"
+	],
+	"added" : false,
+	"camping": true,
+	"attendance": "60,000",
+	"__v" : 0
+}
+{
+	"name" : "Electric Zoo",
+	"venue" : "Randall's Island",
+	"location" : "New York City, NY",
+	"startDate" : "2023-09-01T00:00:00Z",
+	"endDate" : "2023-09-03T00:00:00Z",
+	"headliners" : [
+		"Porter Robinson",
+		"Bassnectar",
+		"Tiesto",
+		"Datsik",
+		"12th Planet"
+	],
+	"added" : false,
+	"camping": false,
+	"attendance": "85,000",
+	"__v" : 0
+}
+{
+	"name" : "Electric Daisy Carnival",
+	"venue" : "Las Vegas Motor Speedway",
+	"location" : "Las Vegas, NV",
+	"startDate" : "2023-05-26T00:00:00Z",
+	"endDate" : "2023-05-28T00:00:00Z",
+	"headliners" : [
+		"Jauz",
+		"Dillon Francis",
+		"Zomboy",
+		"Snails",
+		"Zeds Dead"
+	],
+	"added" : false,
+	"camping": true,
+	"attendance": "400,000",
+	"__v" : 0
+}
+{
+	"name" : "Governor's Ball",
+	"venue" : "Randall's Island",
+	"location" : "New York City, NY",
+	"startDate" : "2023-06-02T00:00:00Z",
+	"endDate" : "2023-06-04T00:00:00Z",
+	"headliners" : [
+		"Ye",
+		"The Killers",
+		"Flume",
+		"Mac Miller",
+		"Vince Staples"
+	],
+	"added" : false,
+	"camping": false,
+	"attendance": "90,000",
+	"__v" : 0
+}
+{
+	"name" : "Imagine Music Festival",
+	"venue" : "Georgia Speedway",
+	"location" : "Atlanta, GA",
+	"startDate" : "2023-08-25T00:00:00Z",
+	"endDate" : "2023-08-27T00:00:00Z",
+	"headliners" : [
+		"Zeds Dead",
+		"Liquid Stranger",
+		"Borgore",
+		"Excision",
+		"Dillon Francis"
+	],
+	"added" : false,
+	"camping": true,
+	"attendance": "120,000",
+	"__v" : 0
+}
+{
+	"name" : "Panorama",
+	"venue" : "Randall's Island",
+	"location" : "New York City, NY",
+	"startDate" : "2023-08-11T00:00:00Z",
+	"endDate" : "2023-08-13T00:00:00Z",
+	"headliners" : [
+		"Tame Impala",
+		"ODESZA",
+		"Tycho",
+		"Flume",
+		"Bebe Rhexa"
+	],
+	"added" : false,
+	"camping": false,
+	"attendance": "60,000",
+	"__v" : 0
+}
+{
+	"name" : "Decadance",
+	"venue" : "Denver Civic Center",
+	"location" : "Denver, CO",
+	"startDate" : "2023-12-30T00:00:00Z",
+	"endDate" : "2023-12-31T00:00:00Z",
+	"headliners" : [
+		"Bassnectar",
+		"Snails",
+		"Flume",
+		"Marshmello",
+		"GRiZ"
+	],
+	"added" : false,
+	"camping": false,
+	"attendance": "30,000",
+	"__v" : 0
+}
+{
+	"name" : "Gathering of The Vibes",
+	"venue" : "Seaside Park",
+	"location" : "Bridgeport, CT",
+	"startDate" : "2023-07-27T00:00:00Z",
+	"endDate" : "2023-07-30T00:00:00Z",
+	"headliners" : [
+		"Phil Lesh & Friends",
+		"Widespread Panic",
+		"The Disco Biscuits",
+		"Dark Star Orchestra",
+		"Dopapod"
+	],
+	"added" : false,
+	"camping": true,
+	"attendance": "25,000",
+	"__v" : 0
+}
+{
+	"name" : "Coachella",
+	"venue" : "Empire Polo Club",
+	"location" : "Indio, CA",
+	"startDate" : "2023-04-14T00:00:00Z",
+	"endDate" : "2023-04-16T00:00:00Z",
+	"headliners" : [
+		"Doja Cat",
+		"Megan Thee Stalion",
+		"Daft Punk",
+		"Beyonce",
+		"Taylor Swift"
+	],
+	"added" : false,
+	"camping": true,
+	"attendance": "126,000",
+	"__v" : 0
+}
+{
+	"name" : "Lost Lands",
+	"venue" : "Legend Valley",
+	"location" : "Acron, OH",
+	"startDate" : "2023-09-15T00:00:00Z",
+	"endDate" : "2023-09-17T00:00:00Z",
+	"headliners" : [
+		"Excision",
+		"Datsik",
+		"Zomboy",
+		"Zeds Dead",
+		"Destroid"
+	],
+	"added" : false,
+	"camping": true,
+	"attendance": "60,000",
+	"__v" : 0
+}
+{
+	"name" : "Bonaroo",
+	"venue" : "Great Stage Park",
+	"location" : "Manchester, TN",
+	"startDate" : "2023-06-08T00:00:00Z",
+	"endDate" : "2023-06-11T00:00:00Z",
+	"headliners" : [
+		"Red Hot Chili Peppers",
+		"Bassnectar",
+		"Widespread Panic",
+		"Flume",
+		"The Black Keys"
+	],
+	"added" : false,
+	"attendance" : "80,000",
+	"camping" : true,
+	"__v" : 0
+}
+{
+	"name" : "Lollapalooza",
+	"venue" : "Grant Park",
+	"location" : "Chicago, IL",
+	"startDate" : "2023-06-02T00:00:00Z",
+	"endDate" : "2023-06-04T00:00:00Z",
+	"headliners" : [
+		"Cage The Elephant",
+		"Marshmello",
+		"Coldplay",
+		"Mac Miller",
+		"A$AP Rocky"
+	],
+	"added" : false,
+	"attendance" : "90,000",
+	"camping" : false,
+	"__v" : 0
+}
+{
+	"name" : "Tipper & Friends",
+	"venue" : "Spirit Of The Suwannee Park",
+	"location" : "Suwannee, FL",
+	"startDate" : "2023-05-19T00:00:00Z",
+	"endDate" : "2023-05-20T00:00:00Z",
+	"headliners" : [
+		"Tipper",
+		"Shpongle",
+		"Mindex",
+		"Jade Cicada",
+		"Detox Unit"
+	],
+	"added" : false,
+	"attendance" : "20,000",
+	"camping" : true,
+	"__v" : 0
+}
+{
+	"name" : "Paradiso",
+	"venue" : "The Gorge Ampitheatre",
+	"location" : "Quincy, Washington",
+	"startDate" : "2023-07-21T00:00:00Z",
+	"endDate" : "2023-07-23T00:00:00Z",
+	"headliners" : [
+		"Kaskade",
+		"Excision",
+		"Porter Robison",
+		"Funtcase",
+		"G Jones"
+	],
+	"added" : false,
+	"attendance" : "29,000",
+	"camping" : true,
+	"__v" : 0
+}

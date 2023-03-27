@@ -1,0 +1,274 @@
+{
+    "name" : "Bassnectar",
+    "bio" : "Lorin Ashton, better known under his stage name Bassnectar, is an American DJ and record producer.",
+    "genre" : "Alternative Bass",
+    "label" : "Amorphous",
+    "albums" : [
+        "Timestretch",
+        "Divergent Spectrum",
+        "Vava Voom"
+    ],
+    "singles" : [
+        "Bass Head",
+        "The Matrix",
+        "Dive"
+    ],
+    "__v" : 0
+}
+{
+    "name" : "Skrillex",
+    "bio" : "Sonny John Moore, known professionally as Skrillex, is an American electronic dance music producer, DJ, singer, songwriter and multi-instrumentalist.",
+    "genre" : "Dubstep",
+    "label" : "OWSLA",
+    "albums" : [
+        "Recess",
+        "Scary Monsters & Sprites",
+        "Skrillex & Diplo Present: Jack U"
+    ],
+    "singles" : [
+        "Red Lips (remix)",
+        "Purple Lamborghini",
+        "Burial (remix)"
+    ],
+    "__v" : 0
+}
+{
+    "name" : "The Chainsmokers",
+    "bio" : "The Chainsmokers is an American DJ/producer duo consisting of Andrew Taggart and Alex Pall.The EDM-pop duo achieved a breakthrough with their 2014 song \"#Selfie\", which was a top twenty single in several countries.",
+    "genre" : "EDM / Pop",
+    "label" : "Disruptor",
+    "albums" : [
+        "Selfie",
+        "Kanye",
+        "Don't Let Me Down"
+    ],
+    "singles" : [
+        "Selfie",
+        "Closer",
+        "Roses"
+    ],
+    "__v" : 0
+}
+{
+    "name" : "Jauz",
+    "bio" : "Sam Vogel, better known by his stage name Jauz (pronounced: jaws),is an American DJ and electronic dance music producer based in Los Angeles, United States.",
+    "genre" : "Bass House",
+    "label" : "Spinnin'",
+    "albums" : [
+        "Pure Evil",
+        "Squad Out!",
+        "The Game"
+    ],
+    "singles" : [
+        "Feel The Volume",
+        "Deeper Love (remix)",
+        "Rock The Party"
+    ],
+    "__v" : 0
+}
+{
+    "name" : "Martin Garrix",
+    "bio" : "Martin Garrix is a Dutch music producer and DJ. He began releasing singles in 2012, but became widely known after his single \"Animals\" was a worldwide hit, reaching the top ten of many charts across Europe in late 2013 and early 2014, and reaching number one in the UK, Belgium and on the Billboard Hot Dance Club Songs chart.",
+    "genre" : "Big Room",
+    "label" : "Spinnin'",
+    "albums" : [
+        "Gold Skies - EP",
+        "Seven",
+        "Break Through The Silence"
+    ],
+    "singles" : [
+        "Animals",
+        "Gold Skies",
+        "Tremor"
+    ],
+    "__v" : 0
+}
+{
+    "name" : "Dillon Francis",
+    "bio" : "Dillon Hart Francis (born October 5, 1987) is an American DJ, record producer, comedian, composer and musician.",
+    "genre" : "Electro House",
+    "label" : "Dim Mak",
+    "albums" : [
+        "Money Sucks, Friends Rule.",
+        "Something, Something, Awesome.",
+        "This Mixtape Is Fire"
+    ],
+    "singles" : [
+        "Get Low",
+        "Set Me Free",
+        "IDGAFOS"
+    ],
+    "__v" : 0
+
+}
+{
+    "name" : "Flux Pavilion",
+    "bio" : "Joshua Steele, better known by his stage name Flux Pavilion, is an English DJ, EDM producer, singer-songwriter and label owner who has been performing since 2008.",
+    "genre" : "Dubstep",
+    "label" : "Never Say Die",
+    "albums" : [
+        "Lines in Wax",
+        "Blow The Roof",
+        "Freeway"
+    ],
+    "singles" : [
+        "Bass Cannon",
+        "Superbad",
+        "Daydreamer"
+    ],
+    "__v" : 0
+
+}
+{
+    "name" : "Rusko",
+    "bio" : "Christopher William Mercer (born 26 January 1985) is a British electronic dubstep producer and DJ.",
+    "genre" : "Dubstep",
+    "label" : "Mad Decent",
+    "albums" : [
+        "O.M.G!",
+        "Songs",
+        "FabricLive.37"
+    ],
+    "singles" : [
+        "Woo Boost",
+        "Roll It, Light It",
+        "Cockney Thug"
+    ],
+    "__v" : 0
+}
+{
+    "name" : "Tipper",
+    "bio" : "David Tipper, or Tipper for short (born c. 1976 Wimbledon, London) is a British composer and producer specializing in electronic music that ranges from ambient, through trip hop, to uptempo nu skool breaks. His live performances consist largely of his own unreleased compositions, and he is noted for scratching his own sounds over his music, creating a live element of turntablism stemming from prowess early in his career as a vinyl DJ.",
+    "genre" : "Electronica",
+    "label" : "Tippermusic",
+    "albums" : [
+        "Forward Escape",
+        "Broke Soul Jamboree",
+        "Wobble Factor"
+    ],
+    "singles" : [
+        "Dreamsters",
+        "Cuckoo",
+        "Off Kilter (No Filter)"
+    ],
+    "__v" : 0
+}
+{
+    "name" : "Datsik",
+    "bio" : "Troy Beetles, better known by his stage name Datsik, is a Canadian music producer and DJ. His first release was in the spring of 2009; he has since played at venues all over the world.",
+    "genre" : "Dubstep",
+    "label" : "Firepower Records",
+    "albums" : [
+        "Vitamin D",
+        "Let It Burn",
+        "Swagga EP"
+    ],
+    "singles" : [
+        "Swagga",
+        "Buckshot",
+        "Glock Burst"
+    ],
+    "__v" : 0
+}
+{
+    "name" : "Marshmello",
+    "bio" : "Marshmello (stylized marshmello) is an electronic dance music producer and DJ. He first gained international recognition by remixing songs by Jack U and Zedd, and later collaborated with artists including Omar LinX, Ookay, Jauz and Slushii. In January 2017, his song \"Alone\" appeared on the US Billboard Hot 100 chart.",
+    "genre" : "Future Bass",
+    "label" : "Monstercat",
+    "albums" : [
+        "Joytime",
+        "n/a",
+        "n/a"
+    ],
+    "singles" : [
+        "Alone",
+        "Ritual",
+        "Want U 2"
+    ],
+    "__v" : 0
+}
+{
+    "name" : "Tame Impala",
+    "bio" : "Tame Impala is a psychedelic rock project by the Australian musician Kevin Parker.",
+    "genre" : "Psychedelic Rock",
+    "label" : "Modular Recordings",
+    "albums" : [
+        "Tame Impala",
+        "Innerspeaker",
+        "Lonerism"
+    ],
+    "singles" : [
+        "Elephant",
+        "Feels Like We Only Go Backwards",
+        "The Less I Know The Better"
+    ],
+    "__v" : 0
+}
+{
+	"name" : "Tchami",
+	"bio" : "Martin Bresso, known by his stage name Tchami, is a French producer and DJ from Paris. He is regarded as a pioneer of the Future house genre.",
+	"genre" : "Future House",
+	"label" : "Confession",
+	"albums" : [
+		"After Life",
+		"Shot Caller",
+		"Promesses"
+	],
+	"singles" : [
+		"You Know You Like It (Remix)",
+		"Adieu",
+		"After Life"
+	],
+	"__v" : 0
+}
+{
+	"name" : "Oliver Heldens",
+	"bio" : "Oliver Heldens is a Dutch DJ and electronic music producer from Rotterdam. His 2013 song, \"Gecko\", caught the attention of fellow Dutch DJ Tiesto, who signed him to his label, Musical Freedom, and released the track with vocals from British singer Becky Hill on June 23, 2014. Heldens also has a weekly podcast titled \"Heldeep Radio\", which has been ongoing for over 2 years.",
+	"genre" : "Helpdeep",
+	"label" : "Future House",
+	"albums" : [
+		"Gecko",
+		"n/a",
+		"n/a"
+	],
+	"singles" : [
+		"Gecko",
+		"This",
+		"Koala"
+	],
+	"__v" : 0
+}
+{
+	"name" : "Tiesto",
+	"bio" : "Tijs Michiel Verwest, born 17 January 1969), better known by his stage name Tiesto, is a Dutch DJ and record producer. He is named \"the Greatest DJ of All Time\" by MixMag magazine in a poll voted by the fans. In 2013, he was voted by DJ Magazine readers as the \"best DJ of the last 20 years\".",
+	"genre" : "Progressive House",
+	"label" : "Musical Freedom",
+	"albums" : [
+		"A Town Called Paradise",
+		"Kaleidoscope",
+		"Elements of Life"
+	],
+	"singles" : [
+		"Flight 643",
+		"Secrets",
+		"The Only Way Is Up"
+	],
+	"__v" : 0
+}
+{
+	"name" : "Truth",
+	"bio" : "Tristan Roake and Andre Fernandez, better known as \"Truth\", are a production duo from Christchurch, New Zealand. Now based in San Francisco, California, Truth have toured extensively including numerous USA tours, four tours of the UK and Europe and a tour of Latin America.",
+	"genre" : "Dubstep",
+	"label" : "Deep, Dark & Dangerous",
+	"albums" : [
+		"The Ark",
+		"Undeniable",
+		"Hollow World"
+	],
+	"singles" : [
+		"Devil's Game",
+		"War Of The Minds",
+		"Chicks & Drugs"
+	],
+	"__v" : 0
+}
