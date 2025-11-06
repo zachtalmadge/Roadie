@@ -16,9 +16,19 @@ app.use(express.static('public'))
 mongoose.connect('mongodb://localhost/roadie')
     .then(() => console.log('===== Successfully connected to MongoDB ====='))
     .catch(e => console.log(e))
+    
+// suppress warnings on tests
+mongoose.set('strictQuery', false);
 
 UserRoutes(app)
 FestivalRoutes(app)
 ArtistRoutes(app)
 
-app.listen(3000, () => console.log('===== Express app listening on port 3000 ====='))
+// Only start server if not in test environment
+if (process.env.NODE_ENV !== 'test') {
+  const PORT = process.env.PORT || 3000;
+  app.listen(PORT, () => console.log(`===== Express app listening on port ${PORT} =====`));
+}
+
+// Export app for testing (must be at the end)
+module.exports = app;
