@@ -71,7 +71,7 @@ const ArtistForm = () => {
         <Form onSubmit={submit}>
             <Form.Group controlId="name">
                 <Form.Label>Name of Artist</Form.Label>
-                <Form.Control {...nameProp} size="lg" type="text" placeholder="Enter Name of Artist" />
+                <Form.Control {...nameProp} size="lg" type="text" placeholder="Enter Name of Artist" required />
             </Form.Group>
             <Row className="mt-3">
                 <Col lg={6}>
