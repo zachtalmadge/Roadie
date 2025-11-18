@@ -52,9 +52,9 @@ const EventForm = () => {
                 location: locationProp.value,
                 startDate,
                 endDate,
-                headliners: [artist1.value, artist2.value, artist3.value, artist4.value, artist5.value],
+                headliners: [artist1.value, artist2.value, artist3.value, artist4.value, artist5.value, artist6.value],
                 attendance: attendanceProp.value,
-                camping: e.target.elements.camping.value
+                camping: new FormData(e.target).get('camping')
         }
 
         const body = JSON.stringify(data)
