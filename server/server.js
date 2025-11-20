@@ -24,11 +24,18 @@ UserRoutes(app)
 FestivalRoutes(app)
 ArtistRoutes(app)
 
+if (process.env.NODE_ENV !== 'production') {
+  const { resetDatabase } = require('./src/testHelpers.js');
+  app.post('/api/test/reset', resetDatabase);
+  console.log('Test reset endpoint available at POST /api/test/reset');
+}
+
 // Only start server if not in test environment
 if (process.env.NODE_ENV !== 'test') {
   const PORT = process.env.PORT || 3000;
   app.listen(PORT, () => console.log(`===== Express app listening on port ${PORT} =====`));
 }
+
 
 // Export app for testing (must be at the end)
 module.exports = app;
