@@ -24,10 +24,13 @@ UserRoutes(app)
 FestivalRoutes(app)
 ArtistRoutes(app)
 
+// Test helpers endpoints (only in non-production)
 if (process.env.NODE_ENV !== 'production') {
-  const { resetDatabase } = require('./src/testHelpers.js');
+  const { resetDatabase, seedDatabase, resetAndSeed } = require('./src/testHelpers');
   app.post('/api/test/reset', resetDatabase);
-  console.log('Test reset endpoint available at POST /api/test/reset');
+  app.post('/api/test/seed', seedDatabase);
+  app.post('/api/test/reset-and-seed', resetAndSeed);
+  console.log('✅ Test endpoints available: /api/test/reset, /api/test/seed, /api/test/reset-and-seed');
 }
 
 // Only start server if not in test environment
