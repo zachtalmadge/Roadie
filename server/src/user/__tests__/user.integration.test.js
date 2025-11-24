@@ -20,8 +20,9 @@ describe('User API Integration Tests', () => {
   });
 
   // Setup: Create a user before each test (single-user app)
+  // NOTE: Some tests intentionally skip user creation to test error handling
   beforeEach(async () => {
-    // Create the single user document
+    // Most tests need a user, but edge case tests will clear it
     await User.create({ events: [] });
   });
 
@@ -593,6 +594,64 @@ describe('User API Integration Tests', () => {
       await request(app).delete(`/user/${festival._id}`).expect(200);
       festivalCheck = await Festivals.findById(festival._id);
       expect(festivalCheck.added).toBe(false);
+    });
+
+    // NEW ERROR HANDLING TESTS - Testing "no user exists" scenarios
+    describe('No User Exists Scenarios', () => {
+      it('should return 404 when GET /user with no user in database', async () => {
+        // Clear the user created in beforeEach
+        await User.deleteMany({});
+        
+        const response = await request(app)
+          .get('/user')
+          .expect(404);
+        
+        expect(response.body).toEqual({ error: 'User not found' });
+      });
+
+      it('should return 404 when PUT /user/:festivalID with no user in database', async () => {
+        // Clear the user created in beforeEach
+        await User.deleteMany({});
+        
+        // Create a festival (but no user)
+        const festival = await Festivals.create({
+          name: 'Test Festival',
+          venue: 'Test Venue',
+          location: 'Test City',
+          startDate: new Date('2025-07-01'),
+          endDate: new Date('2025-07-03'),
+          headliners: ['Artist'],
+          added: false
+        });
+        
+        const response = await request(app)
+          .put(`/user/${festival._id}`)
+          .expect(404);
+        
+        expect(response.body).toEqual({ error: 'User not found' });
+      });
+
+      it('should return 404 when DELETE /user/:festivalID with no user in database', async () => {
+        // Clear the user created in beforeEach
+        await User.deleteMany({});
+        
+        // Create a festival (but no user)
+        const festival = await Festivals.create({
+          name: 'Test Festival',
+          venue: 'Test Venue',
+          location: 'Test City',
+          startDate: new Date('2025-07-01'),
+          endDate: new Date('2025-07-03'),
+          headliners: ['Artist'],
+          added: true
+        });
+        
+        const response = await request(app)
+          .delete(`/user/${festival._id}`)
+          .expect(404);
+        
+        expect(response.body).toEqual({ error: 'User not found' });
+      });
     });
   });
 });
