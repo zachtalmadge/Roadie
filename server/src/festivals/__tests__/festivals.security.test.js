@@ -1,7 +1,7 @@
-require('../../__tests__/setup'); // This runs the DB setup automatically
+require('../../__tests__/setup'); 
 const request = require('supertest');
-const app = require('../../../server'); // Adjust path to your server file
-const { Festivals } = require('../festivals.schema'); // Adjust path
+const app = require('../../../server'); 
+const { Festivals } = require('../festivals.schema'); 
 
 describe('Festivals Security Tests', () => {
     // No beforeAll/afterAll needed - setup.js handles it!
