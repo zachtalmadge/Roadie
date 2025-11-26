@@ -149,7 +149,7 @@ describe('User Security Tests', () => {
         });
 
         it('should return 400 when trying to remove festival not in schedule', async () => {
-            // SECURITY FINDING: BUG-API-012
+            // SECURITY FINDING: BUG-API-004
             // Attempting to remove a festival that was never added causes an error
             // instead of being handled gracefully (should be idempotent)
 
