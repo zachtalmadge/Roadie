@@ -5,6 +5,11 @@ let mongoServer;
 
 // Setup: Start in-memory MongoDB before all tests
 beforeAll(async () => {
+  // CRITICAL FIX: Disconnect existing connection from server.js
+  if (mongoose.connection.readyState !== 0) {
+    await mongoose.disconnect();
+  }
+
   mongoServer = await MongoMemoryServer.create();
   const mongoUri = mongoServer.getUri();
   
