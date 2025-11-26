@@ -395,10 +395,8 @@ describe('User Security Tests', () => {
                 e => e._id.toString() === testFestival1._id.toString()
             );
 
-            // FINDING: If duplicates.length > 1, this is BUG-API-011
             if (duplicates.length > 1) {
                 expect(duplicates.length).toBeGreaterThan(1);
-                // This is a race condition bug - document it
             }
         });
 
